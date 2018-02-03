@@ -214,10 +214,6 @@ public class DashboardSummary extends InstrumentedFragment
         aimSummary = view.findViewById(R.id.summary);
         sa = view.findViewById(R.id.second_action);
         fa = view.findViewById(R.id.first_action);
-        //aimIcon.setImageDrawable(R.drawable.ic_settings_about);
-    //    aimTitle.setText("AIM ROM HERE");
-        fa.setText("Changelog");
-        sa.setText("Dismiss");
         View lay = view.findViewById(R.id.aim_romC);
         lay.setVisibility(View.GONE);
 
